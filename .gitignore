@@ -1,0 +1,5 @@
+/target/
+/screenshots/
+*.swp
+.DS_Store
+/dist/

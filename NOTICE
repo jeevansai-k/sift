@@ -1,0 +1,31 @@
+Sift
+====
+
+Sift is an independent Linux re-implementation, released under the MIT
+license (see LICENSE). It contains no code from the projects below; it
+credits them for design and ideas.
+
+Design and product model
+------------------------
+- Burrow by caezium — https://github.com/caezium/Burrow — MIT License.
+  Sift follows Burrow's layout (floating tool rail, Monitor sections, Clean
+  hub), its warm espresso/cream palette and per-tool accent colours, and its
+  safety model (preview first, reviewed plans, Trash by default, receipts).
+  Burrow's engine (burrow-engine, FSL-1.1-ALv2) was NOT copied; Sift's
+  engine is written from scratch for Linux.
+- Mole (`mo`) by tw93 — https://github.com/tw93/Mole — MIT License.
+  The clean / purge / installer / optimize / analyze command model that
+  Burrow wraps originates here.
+- Squarified treemap layout: Bruls, Huijsen & van Wijk (2000),
+  "Squarified Treemaps", re-implemented from the paper.
+
+Bundled fonts (data/fonts) — SIL Open Font License 1.1
+------------------------------------------------------
+- Geist and Geist Mono — Copyright 2024 The Geist Project Authors
+  (https://github.com/vercel/geist-font). License: data/fonts/Geist-OFL.txt,
+  data/fonts/GeistMono-OFL.txt
+- Cal Sans — Copyright 2021 The Cal Sans Project Authors
+  (https://github.com/calcom/font). License: data/fonts/CalSans-OFL.txt
+
+Rust dependencies keep their own licenses (MIT / Apache-2.0); see
+`cargo tree` and each crate's metadata.

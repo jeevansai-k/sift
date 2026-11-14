@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Sift
+GenericName=System Cleaner & Monitor
+Comment=Clean, uninstall, analyze, optimize and monitor your system
+Exec=sift-gui
+Icon=dev.sift.Sift
+Terminal=false
+Categories=System;Monitor;GTK;
+Keywords=clean;cache;junk;uninstall;disk;space;monitor;treemap;duplicates;ports;
+StartupNotify=true
+StartupWMClass=dev.sift.Sift
